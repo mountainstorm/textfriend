@@ -1,0 +1,12 @@
+@source.c{@comment.block.c(0,1){@punctuation.definition.comment.begin.c(0,1){/*}(2,1)
+  Simple Hello World test
+@punctuation.definition.comment.end.c(29,3){*/}(31,3)}(31,3)
+
+@storage.type.c(33,5){int}(36,5)@meta.function.c(36,5){@punctuation.whitespace.function.leading.c(36,5){ }(37,5)@entity.name.function.c(37,5){main}(41,5)@meta.parens.c(41,5){@punctuation.section.parens.begin.c(41,5){(}(42,5)@storage.type.c(42,5){int}(45,5) argc, @storage.type.c(52,5){char}(56,5)** argv@punctuation.section.parens.end.c(63,5){)}(64,5)}(64,5) @meta.block.c(65,5){@punctuation.section.block.begin.c(65,5){{}(66,5)
+
+        @storage.modifier.c(69,7){const}(74,7) @storage.type.c(75,7){char}(79,7)* helloString = @string.quoted.double.c(95,7){@punctuation.definition.string.begin.c(95,7){"}(96,7)bum!@punctuation.definition.string.end.c(100,7){"}(101,7)}(101,7);
+@punctuation.whitespace.support.function.leading.c(103,8){        }(104,8)@support.function.C99.c(104,8){printf}(110,8)(@string.quoted.double.c(111,8){@punctuation.definition.string.begin.c(111,8){"}(112,8)Hello World@constant.character.escape.c(123,8){\n}(125,8)@punctuation.definition.string.end.c(125,8){"}(126,8)}(126,8));
+
+        @keyword.control.c(131,10){return}(137,10) @constant.numeric.c(138,10){0}(139,10);
+@punctuation.section.block.end.c(141,11){}}(142,11)}(142,11)}(142,11)
+}
